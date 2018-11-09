@@ -1,0 +1,152 @@
+body {
+	background-color: black;
+}
+header {
+	text-align: center;
+	font-size: 70px;
+	background-image: url("images/peppers.png");
+	color: #3366cc;
+	height: 100px;
+}
+.html1{
+	margin-left: 500px;
+	margin-right: 400px;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 10px white solid;
+	background-color: white;
+	margin-top: 50px;
+	border: 25px red solid;
+}
+
+.habanero {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+
+.habanero2 {
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom:200px;
+}
+h1 {
+	color: black;
+	grid-template-columns: span 2; 
+}
+h2{
+	color: white;
+	text-align: ;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+h4{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+h5{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+h6{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+.three{
+		display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 10px white solid;
+	background-color: white;
+	margin-top: 50px;
+	border: 25px gold solid;
+}
+peppers3{
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	
+}
+text{
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom:200px;
+}
+.sarah{
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	background-color: white;
+	border:25px green solid;
+}
+.habanero3{
+	grid-columns: span 1;
+}
+p{
+	font-size: 25px;
+margin-bottom: 200px;	
+}
+.growing{
+		display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 10px white solid;
+	background-color: white;
+	margin-top: 50px;
+	border: 25px orange solid;
+}
+}
+.pics{
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.text2{
+grid-column-start: 2;
+	grid-column-end: span 1;
+	text-align: center;
+}
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.des{
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	text-align: center;
+}
+.comp{
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	text-align: center;
+}
+.grow{
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	text-align: center;
+}
+.conc{
+	grid-column-start: 4;
+	grid-column-end: span 1;
+	text-align: center
+}
+.text5{
+	grid-column-start: 1fr;
+	grid-column-end: 1fr;
+	color: black;
+}
+.text4{
+	display: grid;
+	grid-template-columns: 1fr;
+	border: 10px white solid;
+	background-color: white;
+	margin-top: 50px;
+	border: 25px red solid;
+}
